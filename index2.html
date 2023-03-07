@@ -16,10 +16,8 @@
     <nav class="navbar navbar-light bg-light">
         <div class="imagen-Ig">
             <a class="navbar-brand" href="#">
-                <i class="fab fa-instagram"></i>
+                <i class="fab fa-instagram"></i>&nbsp;Instagram
             </a>
-            <img class="insta"
-                src="https://cmgventures.com/wp-content/uploads/2018/04/instagram-banner-01.png">
         </div>
         <div class="d-flex">
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Create a
@@ -288,6 +286,32 @@
                     </div>
                     <i class="fas fa-ellipsis-v mr-1 mt-1"></i>
 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 pe-3 ps-3">
+                    <label for="message-text" class="col-form-label ">Caption:</label>
+                    <textarea class="form-control" id="message-text" placeholder="Add caption for your post here"></textarea>
+                    <button class="fa-solid fa-camera border px-2 py-1 mt-2 me-1 rounded-1 "></button>
+                    <button class="fa-solid fa-location-dot border px-2 py-1 mt-2 me-1 rounded-1"></button>
+                </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Publish</button>
                 </div>
             </div>
         </div>
